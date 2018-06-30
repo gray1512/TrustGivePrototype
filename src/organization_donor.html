@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <title> Donator Profile | Clear Donation </title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/form-validation.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-light">
+    <div class="container">
+ 
+      <div class="">
+
+        <div class="order-md-1">
+          <h1 class="mb-3"> Donor's Profile </h1>
+
+          <form novalidate>
+
+            <div class="mb-3">
+
+              <div class="mb-3">
+                <label for="name"> Name: </label>
+                <input type="text" name="name" class="form-control" placeholder="Donator's name" maxlength="30" size="50">
+              </div>
+
+              <div class="mb-3">
+                <label for="email"> Email: </label>
+                <input type="email" name="email" class="form-control" placeholder="Donator's email">
+              </div>
+
+              <div class="mb-3">
+                <label for="phone"> Phone Numer: </label>
+                <input type="tel" name="phone" class="form-control" placeholder="Donator's phone number">
+              </div>
+
+              <div class="mb-3">
+                <label for="zipcode"> Zipcode: </label>
+                <input type="text" name="zipcode" class="form-control" placeholder="Donator's zipcode">
+              </div>
+
+              <div class="mb-3">
+
+              <div class="mb-3">
+                <label for="name"> Name: </label>
+                <input type="text" name="name" class="form-control" placeholder="Item's name" maxlength="30" size="50">
+              </div>
+
+              <div class="mb-3">
+                <label for="description"> Description: </label>
+                <input type="text" name="description" class="form-control" placeholder="Item's description">
+              </div>
+
+              <div class="mb-3">
+                <label for="specification"> Specification: </label>
+                <input type="text" name="specification" class="form-control" placeholder="Item's specification">
+              </div>
+
+              <div class="mb-3">
+                <label for="other"> Other Information: </label>
+                <input type="text" name="other" class="form-control" placeholder="Other information">
+              </div>
+
+            </div>
+
+            </div>
+            <input type="text" name="donor-key" id="donor-key" val="0x4Cfdb00C4EB72EeADFF5469316c1222D6F690Fe9" hidden >
+            <button class="btn btn-primary btn-lg btn-block btn-donor">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>    
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/organization.js"></script>
+  </body>
+</html>

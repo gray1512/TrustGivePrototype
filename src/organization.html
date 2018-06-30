@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <title> Organization </title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/form-validation.css" rel="stylesheet">-->
+
+  </head>
+  <body class="bg-light">
+    <div class="container" style="padding: 10%; ">
+      <a class="btn btn-primary" style="margin: 2%; padding: 2%; width: 400px; font: 1.5em;" id="new-donor" onclick="window.location.href='organization_donor.html';">Add new donation</a> <br/>      
+      <a class="btn btn-primary" style="margin: 2%; padding: 2%; width: 400px; font: 1.5em;" id="new-rec" hidden onclick="window.location.href='organization_recipient.html';">Add Recipient</a> <br/>
+      <a class="btn btn-primary" style="margin: 2%; padding: 2%; width: 400px; font: 1.5em;" id="start" hidden >Start</a> <br/>
+      <a class="btn btn-primary" style="margin: 2%; padding: 2%; width: 400px; font: 1.5em;" id="delivered" hidden >We are here!</a> <br/>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/organization.js"></script>
+  </body>
+</html>
